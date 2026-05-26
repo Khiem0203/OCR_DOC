@@ -1,0 +1,19 @@
+# Simple rqm
+# requirements.txt
+
+fastapi
+uvicorn
+pydantic-settings
+httpx
+numpy
+opencv-python-headless
+pillow
+
+celery[sqlalchemy]
+kombu
+psycopg2-binary
+
+# Engine VLM — pick one (vllm & lmdeploy is conflict to each other - so choose only one):
+# vllm
+lmdeploy
+# transformers accelerate
