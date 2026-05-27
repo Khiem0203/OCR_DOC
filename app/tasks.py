@@ -69,6 +69,7 @@ def parse_task(self, pdf_b64: str, req_dict: dict) -> dict:
             f_dump_content_list=req_dict.get("dump_content_list", True),
             f_dump_middle_json=req_dict.get("dump_middle_json", False),
             f_dump_model_output=req_dict.get("dump_model_output", False),
+            p_lang_list=["latin"],
         ))
 
         # [3] Hậu xử lý tiếng Việt
